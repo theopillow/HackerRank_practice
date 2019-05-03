@@ -2,19 +2,16 @@ class AdvancedArithmetic(object):
     def divisorSum(n):
         raise NotImplementedError
 
-import math       
+
 class Calculator(AdvancedArithmetic):
     
     def divisorSum(self, n):
-        divs = [1]
-        
-        for i in range(2, int(math.sqrt(n)) + 1):
-            if n%i == 0:
-                divs.extend([i, n/i])
-        
-        divs.append(n)
-        
-        return int(sum(list(set(divs))))
+        total = n
+        for i in range(1, n):
+            if n % i == 0:
+#                 print('i: {}'.format(i))
+                total += i
+        return total
 
 
 n = int(input())
