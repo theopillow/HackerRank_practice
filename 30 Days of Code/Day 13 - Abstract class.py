@@ -1,3 +1,15 @@
+## Sample Input
+
+# The Alchemist
+# Paulo Coelho
+# 248
+
+## Sample Output
+
+# Title: The Alchemist
+# Author: Paulo Coelho
+# Price: 248
+
 from abc import ABCMeta, abstractmethod
 
 class Book(object, metaclass=ABCMeta):
@@ -30,14 +42,3 @@ new_novel=MyBook(title,author,price)
 new_novel.display()
 
 
-## Sample Input
-
-# The Alchemist
-# Paulo Coelho
-# 248
-
-## Sample Output
-
-# Title: The Alchemist
-# Author: Paulo Coelho
-# Price: 248

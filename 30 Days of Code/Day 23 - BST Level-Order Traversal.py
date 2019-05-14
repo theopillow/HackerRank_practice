@@ -1,3 +1,17 @@
+# Sample Input
+
+# 6
+# 3
+# 5
+# 4
+# 7
+# 2
+# 1
+
+# Sample Output
+
+# 3 2 5 1 4 7 
+
 import sys
 
 class Node:
@@ -48,17 +62,3 @@ for i in range(T):
     root = myTree.insert(root, data)
 
 myTree.levelOrder(root)
-
-
-
-# Sample Input
-# 6
-# 3
-# 5
-# 4
-# 7
-# 2
-# 1
-
-# Sample Output
-# 3 2 5 1 4 7 

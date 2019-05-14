@@ -1,3 +1,14 @@
+# Sample Input
+
+# 6
+
+# Sample Output
+
+# I implemented: AdvancedArithmetic
+# 12 (1 + 2 + 3 + 6 = 12)
+
+
+
 class AdvancedArithmetic(object):
     def divisorSum(n):
         raise NotImplementedError
@@ -5,17 +16,8 @@ class AdvancedArithmetic(object):
 
 class Calculator(AdvancedArithmetic):
     
-    # Best solution
     def divisorSum(self, n):
         return sum([x for x in range(1, n+1) if n % x == 0])
-    
-#     def divisorSum(self, n):
-#         total = n
-#         for i in range(1, n):
-#             if n % i == 0:
-#                 total += i
-#         return total
-
 
 n = int(input())
 

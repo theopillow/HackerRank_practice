@@ -1,3 +1,19 @@
+# Sample Input
+
+# 7
+# 3
+# 5
+# 2
+# 1
+# 4
+# 6
+# 7
+
+# Sample Output
+
+# 3
+
+
 class Node:
     def __init__(self,data):
         self.right = self.left = None
@@ -48,17 +64,3 @@ for i in range(T):
 
 height = myTree.getHeight(root)
 print(height)       
-
-
-# Sample Input
-# 7
-# 3
-# 5
-# 2
-# 1
-# 4
-# 6
-# 7
-
-# Sample Output
-# 3

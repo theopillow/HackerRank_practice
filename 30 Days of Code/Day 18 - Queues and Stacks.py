@@ -1,3 +1,11 @@
+# Sample Input
+
+# racecar
+
+# Sample Output
+
+# The word, racecar, is a palindrome.
+
 import sys
 
 class Solution:
